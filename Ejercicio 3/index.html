@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Realizar pedido</h1>
+    </head>   
+    <body>
+        <form name="pedidoForm" action="/pedidos/guardar" onsubmit="return validateForm()" method="post" target="_blank">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" maxlength="100">
+            <br><br>
+            <label for="monto">Monto:</label>
+            <input type="number" name="monto">
+            <br><br>
+            <label for="descuento">Descuento:</label>
+            <input type="number" name="descuento">
+            <br><br>
+            <input type="submit" value="Submit">            
+        </form>
+    </body>    
+
+    <script src="index.js" ></script>
+</html>
