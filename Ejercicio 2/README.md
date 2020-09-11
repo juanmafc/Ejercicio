@@ -12,7 +12,7 @@ Consideraciones a tener en cuenta
 
 ## Network:
 * El tiempo de latencia. El tiempo se reduciría cuanto más cercanos estén los servidores a los clientes.
-* A mayor bandwith, mejor performance.  
+* A mayor bandwidth, mejor performance.  
 * Configuración del load balancer para evitar sobrecargar a algún servidor.  
 
 ## Motor de base de datos:
